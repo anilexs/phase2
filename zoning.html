@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--Permet de définir le langage utilisé et la langue -->
+<html lang="fr">
+<!--Permet d'indiquer la langue de la page-->
+
+<head>
+    <!--Tête du document, non visible sur le site-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ma page structure</title>
+    <!--Titre du site apparaissant  par exemple sur une recherche google-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Reliez le fichier html au fichier CSS(Cascading Style Sheets)-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald" rel="stylesheet">
+    <!--Lien pour les polices utilisé via "Google-Font"-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--Lien pour le "Font-Awesome" récupéré sur site dans "Get Started"-->
+    <meta name="description" content="Ma première page en HTML/CSS">
+    <!--Description sous le titre dans la recherche google, Les moteurs de recherches s'en servent un peu comme des mots clefs pour les recherchers-->
+    <meta charset="UTF-8">
+    
+</head>
+
+<body>
+    <!--Corps du document-->
+    <header>
+        <!--Zone du haut, exp : bannière, logo, slogan ...-->
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up"></i>
+                </button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <!--Zone du menu, les liens pour naviguer sur le site-->
+        <ul class="ancreNav">
+            <li><a href="index.html">Structure</a></li>
+            <li><a href="texte.html">Texte</a></li>
+            <li><a href="selecteur.html">Selecteur</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="position.html">Position</a></li>
+            <li><a href="zoning.html" class="activ">Zoning</a></li>
+            <li><a href="tableau.html">Tableau</a></li>
+            <li><a href="liste.html">Liste</a></li>
+            <li><a href="lien_menu.html">Lien & menu</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="animation.html">Animation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+            <div class="div1">
+                <h1>Zoning</h1>
+            </div>
+            <div>
+                <h2 class="h2">Zoning 1</h2>
+            </div>
+        </div>
+        <section class="sec1">
+            <div class="sec12">
+                <p>Zone du haut</p>
+            </div>
+            <div class="flex">
+                <div class="sec13">
+                    <p>Zone de gauche</p>
+                </div>
+                <div class="sec14">
+                    <p>Zone de droite</p>
+                </div>
+            </div>
+        </section>
+
+        <div>
+                <h2 class="h2">Zoning 2</h2>
+            </div>
+        </div>
+        <section class="sec2">
+            <div class="sec22">
+                <p>Zone du haut<br> 
+                <span>HEADER</span></p>
+            </div>
+            <div class="flex">
+                <div class="sec23"><p>Zone de <br> gauche <br><span>ASIDE</span></p></div>
+                <div class="sec24"><p>Zone du milieu <br><span>MIDDLE</span></p></div>
+                <div class="sec25"><p>Zone de droite <span>ASIDE</span></p></div>
+            </div>
+        </section>
+
+        <div>
+                <h2 class="h2">Zoning 3</h2>
+            </div>
+        </div>
+        <section class="sec3">
+            <div class="flex">
+                <div class="sec32"><p>Gauche <br>SECTION</p></div>
+                <div class="sec33"><p>Droite <br>SECTION</p></div>
+            </div>
+                <div class="sec34"><p>Bas <br> FOOTER</p></div>
+        </section>
+
+        <div>
+                <h2 class="h2">Zoning 4</h2>
+            </div>
+        </div>
+        <section class="sec4">
+                <div class="sec42"><p>HEADER</p></div>
+                <div class="sec43"><p>NAV</p></div> <hr class="hr4">
+                <div class="sec44"><p>SECTION</p></div>
+                <div class="sec45"><p>FOOTER</p></div>
+        </section>
+
+        <h2 class="h2">Zoning 5</h2>
+            </div>
+        </div>
+        <section class="sec5">
+            <div class="sec52"><p>HEADER</p></div>
+            <div class="sec53"><p>NAV</p></div> <hr class="hr5">
+            <div class="flex5">
+                <div class="sec54"><p>Zone 1</p></div>
+                <div class="sec55"><p>Zone 2</p></div>
+            </div>
+            <div class="flex5">
+                <div class="sec56"><p>Zone 3</p></div>
+                <div class="sec57"><p>Zone 4</p></div>
+            </div>
+            <div class="sec58"><p>FOOTER</p></div>
+        </section>
+
+        <h2 class="h2">Zoning 6</h2>
+            </div>
+        </div>
+        <section class="sec6">
+            <div class="flex">
+                <div class="sec62"><p>haut 1</p></div>
+                <div class="sec63"><p>haut 2</p></div>
+                <div class="sec64"><p>haut 3</p></div>
+            </div>
+            <div class="sec65"><p>Menu</p></div>
+            <div class="flex" >
+                <div class="sec66">Zone de gauche</div>
+                <div class="sec680">
+                    <div class="flex">
+                        <div class="sec67">A</div>
+                        <div class="sec68">B</div>
+                    </div>
+                    <div class="sec69">
+                        <p>SlideShow</p>
+                    </div>
+                    <div class="flex">
+                        <div class="bloc1">C</div>
+                        <div class="bloc2">D</div>
+                        <div class="bloc1">E</div>
+                        <div class="bloc2">F</div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec610"><p>Bas</p></div>
+        </section>
+    </main>
+        
+</body>
+
+</html>
