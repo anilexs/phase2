@@ -23,13 +23,11 @@
 <body>
     <!--Corps du document-->
     <header>
+        <a href="#logo">
+<button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+</a>
         <!--Zone du haut, exp : bannière, logo, slogan ...-->
         <div id="logo">
-            <a href="#logo">
-                <button type="button">
-                    <i class="fas fa-arrow-circle-up"></i>
-                </button>
-            </a>
             <img src="img/logo.png" alt="logo">
         </div>
 
@@ -67,25 +65,47 @@
     </nav>
 
     <main>
-        <!--Contenu principal-->
-        <aside>
-            <!--Contenu secondaire-->
-        </aside>
+       <h2>Tableau</h2>
+       <section>
+            <table>
+            <caption><i class="fa fa-plane" aria-hidden="true"></i>Vols Paris Rome</caption>
+            <tr class="thead">
+                <td></td>
+                <td>02/08/2017</td>
+                <td>03/08/2017</td>
+                <td>05/08/2017</td>
+            </tr>
 
-        <section>
-            <!--Zone de contenu : titre, texte, regroupement thématique-->
-            <div>
-                <!--Zone supplémentaire de contenu-->
-            </div>
-
-            <span>
-                <!--Zone supplémentaire de contenu-->
-            </span>
-
-            <article>
-                <!--Zone supplémentaire de contenu-->
-            </article>
-        </section>
+            <tr>
+                <td rowspan="2">Air France</td>
+                <td>Depart 10h - Arrive 13h</td>
+                <td>Depart 15h - Arrive 18h</td>
+                <td>Depart 17h - Arrive 20h</td>
+            </tr>
+            <tr>
+                <td>200€</td>
+                <td>180€</td>
+                <td>170€</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Alitalia</td>
+                <td>Depart 6h - Arrive 9h</td>
+                <td>Depart 13h - Arrive 16h</td>
+                <td>Depart 21h - Arrive 00h</td>
+            </tr>
+            <tr>
+                <td>120€</td>
+                <td>250€</td>
+                <td>100€</td>
+            </tr>
+            <tr class="thead">
+                <td></td>
+                <td>02/08/2017</td>
+                <td>03/08/2017</td>
+                <td>05/08/2017</td>
+            </tr>
+        </table>
+       </section>
     </main>
 
     <footer>
