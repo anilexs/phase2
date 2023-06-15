@@ -685,3 +685,13 @@ td{
     border: 1px solid #7799de;
     padding: 5px;
 }
+/* multimedia */
+.audio{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+source{
+    padding-top: -50px;
+    
+}
